@@ -1,0 +1,96 @@
+<!--
+theme name:		Switch
+version:		2.0
+author:			Lilbud
+email:			bvw20002010@gmail.com
+license:		creative commons CC-BY-NC-SA
+based on:       Switch Theme for Launchbox by Grila
+-->
+
+<theme>
+	<formatVersion>4</formatVersion>
+	
+	<view name="system">
+	
+		<text name="system_name_1" extra="true">
+			<color>6ac6b4</color>
+		</text>
+		
+		<image name="arrowblock" extra="true">
+			<color>6ac6b4</color>
+		</image>
+		
+	</view>
+		
+	<view name="system, basic, detailed, video">
+		
+		<image name="background">
+			<color>2d2d2d</color>
+		</image>
+		
+		<image name="topline, bottomline" extra="true">
+			<color>fefefe</color>
+		</image>
+		
+		<image name="gamelistbuttons, systembuttons" extra="true">
+			<color>fefefe</color>
+		</image>
+	
+	</view>
+	
+	<view name="detailed, video">
+		
+		<textlist name="gamelist">
+			<selectedColor>6ac6b4</selectedColor>
+			<primaryColor>fefefe</primaryColor>
+			<secondaryColor>fefefe</secondaryColor>
+			<selectorColor>6ac6b4</selectorColor>
+		</textlist>	
+		
+		<rating name="md_rating">
+			<filledPath>./../assets/dark/filled_rating.svg</filledPath>
+			<unfilledPath>./../assets/dark/unfilled_rating.svg</unfilledPath>
+		</rating>
+		
+		<text name="md_lbl_releasedate, md_lbl_developer, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_developer, md_genre, md_players, md_playcount, md_releasedate, md_description">
+			<color>fefefe</color>
+		</text>	
+	
+	</view>
+	
+	<view name="basic, detailed, video">
+		
+		<text name="system_name_1" extra="true">
+			<color>fefefe</color>
+		</text>	
+		
+	</view>
+	
+	<view name="basic">
+		
+		<textlist name="gamelist">
+			<selectedColor>6ac6b4</selectedColor>
+			<primaryColor>fefefe</primaryColor>
+			<secondaryColor>fefefe</secondaryColor>
+			<selectorColor>00000000</selectorColor>
+		</textlist>	
+	
+	</view>
+
+<feature supported="carousel">
+  
+  <view name="system">
+
+	<text name="systemInfo">
+      <color>6ac6b4</color>
+	</text>
+
+  </view>
+
+</feature>
+ 
+</theme>
+	
+	
+	
+	
