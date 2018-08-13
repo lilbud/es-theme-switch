@@ -1,6 +1,6 @@
 <!--
 theme name:		Switch
-version:		2.0
+version:		3.0
 author:			Lilbud
 email:			bvw20002010@gmail.com
 license:		creative commons CC-BY-NC-SA
@@ -10,14 +10,24 @@ based on:       Switch Theme for Launchbox by Grila
 <theme>
 	<formatVersion>4</formatVersion>
 	
+	<!-- Color Variables -->
+	<variables>
+		
+		<backgroundColor>2d2d2d</backgroundColor>
+ 
+		<mainColor>15c49e</mainColor>
+		<secondaryColor>fefefe</secondaryColor>
+ 
+	</variables>
+	
 	<view name="system">
 	
 		<text name="system_name_1" extra="true">
-			<color>6ac6b4</color>
+			<color>${mainColor}</color>
 		</text>
 		
 		<image name="arrowblock" extra="true">
-			<color>6ac6b4</color>
+			<color>${mainColor}</color>
 		</image>
 		
 	</view>
@@ -25,15 +35,15 @@ based on:       Switch Theme for Launchbox by Grila
 	<view name="system, basic, detailed, video">
 		
 		<image name="background">
-			<color>2d2d2d</color>
+			<color>${backgroundColor}</color>
 		</image>
 		
 		<image name="topline, bottomline" extra="true">
-			<color>fefefe</color>
+			<color>${secondaryColor}</color>
 		</image>
 		
 		<image name="gamelistbuttons, systembuttons" extra="true">
-			<color>fefefe</color>
+			<color>${secondaryColor}</color>
 		</image>
 	
 	</view>
@@ -41,10 +51,10 @@ based on:       Switch Theme for Launchbox by Grila
 	<view name="detailed, video">
 		
 		<textlist name="gamelist">
-			<selectedColor>6ac6b4</selectedColor>
-			<primaryColor>fefefe</primaryColor>
-			<secondaryColor>fefefe</secondaryColor>
-			<selectorColor>6ac6b4</selectorColor>
+			<selectedColor>${mainColor}</selectedColor>
+			<primaryColor>${secondaryColor}</primaryColor>
+			<secondaryColor>${secondaryColor}</secondaryColor>
+			<selectorColor>${mainColor}</selectorColor>
 		</textlist>	
 		
 		<rating name="md_rating">
@@ -53,7 +63,7 @@ based on:       Switch Theme for Launchbox by Grila
 		</rating>
 		
 		<text name="md_lbl_releasedate, md_lbl_developer, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_developer, md_genre, md_players, md_playcount, md_releasedate, md_description">
-			<color>fefefe</color>
+			<color>${secondaryColor}</color>
 		</text>	
 	
 	</view>
@@ -61,7 +71,7 @@ based on:       Switch Theme for Launchbox by Grila
 	<view name="basic, detailed, video">
 		
 		<text name="system_name_1" extra="true">
-			<color>fefefe</color>
+			<color>${secondaryColor}</color>
 		</text>	
 		
 	</view>
@@ -69,9 +79,9 @@ based on:       Switch Theme for Launchbox by Grila
 	<view name="basic">
 		
 		<textlist name="gamelist">
-			<selectedColor>6ac6b4</selectedColor>
-			<primaryColor>fefefe</primaryColor>
-			<secondaryColor>fefefe</secondaryColor>
+			<selectedColor>${mainColor}</selectedColor>
+			<primaryColor>${secondaryColor}</primaryColor>
+			<secondaryColor>${secondaryColor}</secondaryColor>
 			<selectorColor>00000000</selectorColor>
 		</textlist>	
 	
@@ -82,7 +92,7 @@ based on:       Switch Theme for Launchbox by Grila
   <view name="system">
 
 	<text name="systemInfo">
-      <color>6ac6b4</color>
+      <color>${mainColor}</color>
 	</text>
 
   </view>

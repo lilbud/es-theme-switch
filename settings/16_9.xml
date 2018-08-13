@@ -10,129 +10,12 @@ based on:       Switch Theme for Launchbox by Grila
 <theme>
 	<formatVersion>4</formatVersion>
 	
-	<view name="system">
-	
-		<helpsystem name="help">
-			<textColor>ffffff</textColor>
-			<iconColor>ffffff</iconColor>
-			<pos>1 1</pos>
-		</helpsystem>	
-		
-		<image name="logo">
-			<path>./../art/${system.theme}.jpg</path>
-		</image>
-		
-		<text name="system_name_1" extra="true">
-			<text>${system.fullName}</text>
-			<forceUppercase>0</forceUppercase>
-			<size>0.743 0.015</size>
-			<pos>0.063 0.235</pos>
-			<origin>0 0</origin>
-			<fontPath>./../assets/Oxygen-Regular.ttf</fontPath>
-			<fontSize>0.04</fontSize>
-			<alignment>left</alignment>
-		</text>
-		
-		<image name="arrowblock" extra="true">
-			<pos>0.03 0.22</pos>
-			<path>./../assets/arrow_block.svg</path>
-			<size>0.023 0.047</size>
-			<origin>0 0</origin>
-		</image>	
-		
-	</view>
-	
 	<view name="system, basic, detailed, video">
-		
-		<image name="background" extra="true">
-			<pos>0 0</pos>
-			<tile>true</tile>
-			<origin>0 0</origin>
-			<size>1 1</size>
-			<path>./../assets/box.png</path>
-			<zIndex>-100</zIndex>
-		</image>
 		
 		<image name="gamelistbuttons, systembuttons" extra="true">
 			<pos>0.958 0.95</pos>
 			<origin>1.0 0.5</origin>
 			<size>0.53 0.036</size>	
-		</image>
-		
-		<image name="bottomline" extra="true">
-			<pos>0.5 0.9</pos>
-			<tile>false</tile>
-			<origin>0.5 0.5</origin>
-			<size>0.938 0.001</size>
-			<path>./../assets/box.png</path>
-		</image>
-	
-	</view>
-	
-	<view name="basic, detailed, video">
-		
-		<text name="md_lbl_releasedate, md_lbl_developer, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_developer, md_genre, md_players, md_playcount, md_releasedate, system_name_1, md_description">
-			<forceUppercase>0</forceUppercase>
-			<fontPath>./../assets/Oxygen-Regular.ttf</fontPath>
-			<fontSize>0.028</fontSize>
-		</text>
-
-		<helpsystem name="help">
-			<textColor>ffffffff</textColor>
-			<iconColor>ffffffff</iconColor>
-			<pos>1 1</pos>
-		</helpsystem>
-		
-		<image name="logo">
-			<color>00000000</color>
-			<path>./../assets/box.png</path>
-			<pos>1 1</pos>
-		</image>
-		
-		<text name="system_name_1" extra="true">
-			<text>${system.fullName}</text>
-			<forceUppercase>0</forceUppercase>
-			<size>0.743 0.031</size>
-			<pos>0.034 0.065</pos>
-			<fontPath>./../assets/Oxygen-Regular.ttf</fontPath>
-			<fontSize>0.03</fontSize>
-			<alignment>left</alignment>
-		</text>
-		
-		<image name="topline" extra="true">
-			<pos>0.5 0.13</pos>
-		</image>
-		
-		<image name="topline, bottomline" extra="true">
-			<tile>false</tile>
-			<origin>0.5 0.5</origin>
-			<size>0.938 0.001</size>
-			<path>./../assets/box.png</path>
-		</image>
-	
-	</view>
-		
-	<view name="basic">
-		
-		<textlist name="gamelist">
-			<fontPath>./../assets/Oxygen-Regular.ttf</fontPath>
-			<fontSize>0.028</fontSize>
-			<pos>0.04 0.182</pos>
-			<size>0.924 0.682</size>
-			<alignment>center</alignment>
-			<horizontalMargin>0.01</horizontalMargin>
-			<lineSpacing>2.3</lineSpacing>
-			<scrollSound>./../assets/Move.wav</scrollSound>
-		</textlist>	
-
-	</view>
-	
-	<view name="detailed">
-		
-		<image name="md_image">
-			<pos>0.360 0.180</pos>
-			<maxSize>0.277 0.615</maxSize>
-			<origin>0 0</origin>
 		</image>
 	
 	</view>
@@ -172,109 +55,12 @@ based on:       Switch Theme for Launchbox by Grila
 		<text name="md_lbl_releasedate">
 			<pos>0.657 0.238</pos>
 		</text>
-<!-------------DESCRIPTION--------------->		
-		<text name="md_description">
-			<forceUppercase>0</forceUppercase>
-			<fontPath>./../assets/Oxygen-Regular.ttf</fontPath>
-			<fontSize>0.025</fontSize>
-			<size>0.309 0.336</size>
-			<pos>0.657 0.387</pos>
-		</text>
-<!-------------GAMELIST------------------>		
-		<textlist name="gamelist">
-			<selectorImagePath>./../assets/selector.png</selectorImagePath>
-			<selectorHeight>0.06</selectorHeight>
-			<selectorOffsetY>-0.008</selectorOffsetY>
-			<fontPath>./../assets/Oxygen-Regular.ttf</fontPath>
-			<fontSize>0.028</fontSize>
-			<pos>0.04 0.182</pos>
-			<size>0.31 0.682</size>
-			<alignment>left</alignment>
-			<horizontalMargin>0.01</horizontalMargin>
-			<lineSpacing>2.3</lineSpacing>
-			<scrollSound>./../assets/Move.wav</scrollSound>
-		</textlist>	
-<!-------------PLAYCOUNT----------------->
-		<text name="md_lbl_playcount">
-			<pos>1 1</pos>
-		</text>
-		
-		<text name="md_playcount">
-			<pos>1 1</pos>
-		</text>
 <!-------------LAST PLAYED--------------->		
-		<text name="md_lbl_lastplayed">
-			<pos>1 1</pos>
-		</text>
-		
 		<datetime name="md_lastplayed">
 			<pos>1 1</pos>
 		</datetime>
-<!-------------PUBLISHER----------------->		
-		<text name="md_lbl_publisher">
-			<pos>1 1</pos>
-		</text>
-		
-		<text name="md_publsher">
-			<pos>1 1</pos>
-		</text>
-<!-------------RATINGS------------------->
-		<text name="md_lbl_rating">
-			<pos>1 1</pos>
-		</text>
-		
-		<rating name="md_rating">
-			<pos>0.657 0.747</pos>
-			<size>0.27 0</size>
-		</rating>
 
 </view>
-
-<feature supported="carousel">
-  
-  <view name="system">
-
-    <carousel name="systemcarousel">
-      <type>horizontal</type>
-      <pos>0 0.3</pos> 
-      <size>1 .4</size> 
-      <color>00000000</color>
-      <logoScale>1</logoScale>
-      <logoSize>0.234 0.397</logoSize>
-      <maxLogoCount>3.5</maxLogoCount>
-    </carousel>
-
-    <text name="systemInfo">
-      <backgroundColor>dddddd00</backgroundColor>
-      <forceUppercase>0</forceUppercase>
-	  <fontPath>./../assets/Oxygen-Regular.ttf</fontPath>
-      <fontSize>0.03</fontSize>
-	  <pos>0.5 0.75</pos>
-	  <origin>0.5 0.5</origin>
-    </text>
-
-  </view>
-
- </feature>
-  
- <view name="video">
-		
-	  <image name="md_marquee">
-			<origin>0.5 0.5</origin>
-			<pos>0.494 0.68</pos>
-			<maxSize>0.268 0.228</maxSize>
-	  </image>
-	  
-	  <video name="md_video">
-			<pos>0.494 0.358</pos>
-			<maxSize>0.268 0.367</maxSize>
-			<origin>0.5 0.5</origin>
-			<delay>0.0</delay>
-			<showSnapshotNoVideo>false</showSnapshotNoVideo>
-			<showSnapshotDelay>false</showSnapshotDelay>
-		</video>
-	
-</view> 		
 </theme>
 		
 		

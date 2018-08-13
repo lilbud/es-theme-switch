@@ -1,6 +1,6 @@
 <!--
 theme name:		Switch
-version:		1.0
+version:		3.0
 author:			Lilbud
 email:			bvw20002010@gmail.com
 license:		creative commons CC-BY-NC-SA
@@ -15,5 +15,6 @@ based on:       Switch Theme for Launchbox by Grila
 	
 	<!--Choose Theme Color (light or dark)-->
 	<include>./settings/light.xml</include>
+
 
 </theme>

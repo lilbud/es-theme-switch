@@ -13,7 +13,7 @@ based on:       Switch Theme for Launchbox by Grila
 		<view name="system">
 		
 			<image name="systembuttons" extra="true">
-				<path>./../assets/buttons/Playstation Buttons_system.svg</path>
+				<path>./../assets/buttons/Playstation_Buttons_system.svg</path>
 			</image>
 		
 		</view>
@@ -21,7 +21,7 @@ based on:       Switch Theme for Launchbox by Grila
 		<view name="basic, detailed, video">
 		
 			<image name="gamelistbuttons" extra="true">
-				<path>./../assets/buttons/Playstation Buttons.svg</path>
+				<path>./../assets/buttons/Playstation_Buttons.svg</path>
 			</image>
 		
 		</view>
