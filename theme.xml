@@ -52,7 +52,7 @@ based on:       Switch Theme for Launchbox by Grila
 			<textColor>22222200</textColor>
 			<iconColor>22222200</iconColor>
 			<pos>1 1</pos>
-			<origin>0 0</origin>
+			
 		</helpsystem>
 		
 		<image name="background" extra="true">
