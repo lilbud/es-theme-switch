@@ -31,7 +31,3 @@ PS & Xbox Buttons
 4:3 Gamelist
 
 ![](https://snag.gy/BbDfx8.jpg)
-
-Link to download: https://github.com/lilbud/es-theme-switch
-
-(Will be in the theme downloader soon)
