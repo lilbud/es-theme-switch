@@ -17,6 +17,15 @@ based on:       Switch Theme for Launchbox by Grila
 			<origin>1.0 0.5</origin>
 			<size>0.75 0.038</size>	
 		</image>
+		
+		<image name="arrowblock" extra="true">
+			<size>0.029 0.047</size>
+		</image>	
+		
+		<text name="system_name_1" extra="true">
+			<size>0.743 0.015</size>
+			<pos>0.07 0.235</pos>
+		</text>
 
 	</view>
 
