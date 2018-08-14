@@ -15,7 +15,7 @@ based on:       Switch Theme for Launchbox by Grila
 		<image name="gamelistbuttons, systembuttons" extra="true">
 			<pos>0.988 0.95</pos>
 			<origin>1.0 0.5</origin>
-			<size>0.75 0.036</size>	
+			<size>0.75 0.038</size>	
 		</image>
 
 	</view>
@@ -28,7 +28,7 @@ based on:       Switch Theme for Launchbox by Grila
 		</text>
 		
 		<text name="md_players">
-			<pos>0.74 0.3307</pos>
+			<pos>0.74 0.3285</pos>
 		</text>
 <!-------------GENRE--------------------->		
 		<text name="md_lbl_genre">
@@ -36,7 +36,7 @@ based on:       Switch Theme for Launchbox by Grila
 		</text>
 		
 		<text name="md_genre">
-			<pos>0.73 0.294</pos>
+			<pos>0.73 0.292</pos>
 			<size>0.2 0.028</size>
 		</text>
 <!-------------DEVELOPER----------------->		
@@ -45,17 +45,17 @@ based on:       Switch Theme for Launchbox by Grila
 		</text>
 		
 		<text name="md_developer">
-			<pos>0.770 0.196</pos>
+			<pos>0.770 0.194</pos>
 			<size>0.2 0.028</size>
 		</text>
 <!-------------RELEASE------------------->		
-		<datetime name="md_releasedate">
-			<pos>0.758 0.232</pos>
-		</datetime>
-		
 		<text name="md_lbl_releasedate">
 			<pos>0.657 0.238</pos>
 		</text>
+		
+		<datetime name="md_releasedate">
+			<pos>0.758 0.2306</pos>
+		</datetime>
 <!-------------LAST PLAYED--------------->		
 		<datetime name="md_lastplayed">
 			<pos>1 1</pos>
