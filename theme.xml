@@ -208,9 +208,9 @@ based on:       Switch Theme for Launchbox by Grila
 			<pos>0.494 0.358</pos>
 			<maxSize>0.268 0.367</maxSize>
 			<origin>0.5 0.5</origin>
-			<delay>0.0</delay>
-			<showSnapshotNoVideo>false</showSnapshotNoVideo>
-			<showSnapshotDelay>false</showSnapshotDelay>
+			<delay>1.5</delay>
+			<showSnapshotNoVideo>true</showSnapshotNoVideo>
+			<showSnapshotDelay>true</showSnapshotDelay>
 		</video>
 	
 </view>	
