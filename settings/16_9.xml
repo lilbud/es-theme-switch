@@ -1,7 +1,7 @@
 <!--
 theme name:		Switch
-version:		2.0
-author:			Lilbud
+version:		4.0
+author:			Lilbud and Bluebotlaboratories
 email:			bvw20002010@gmail.com
 license:		creative commons CC-BY-NC-SA
 based on:       Switch Theme for Launchbox by Grila
@@ -15,7 +15,7 @@ based on:       Switch Theme for Launchbox by Grila
 		<image name="gamelistbuttons, systembuttons" extra="true">
 			<pos>0.958 0.95</pos>
 			<origin>1.0 0.5</origin>
-			<size>0.53 0.036</size>	
+			<size>0.53 0.036</size>
 		</image>
 		
 		<image name="arrowblock" extra="true">
