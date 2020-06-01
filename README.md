@@ -10,7 +10,8 @@ Over the last few days I have been working on this theme further. I updated all 
 - Fixed squished gamecard icon by changing the file format to a png
 - Made colour scheme a lot more similar to the Nintendo Switch's
 <br/>
-<br/>
+
+
 ### CREDITS:
 
 Theme is based on the ```Switch Theme for Launchbox by Grila```
