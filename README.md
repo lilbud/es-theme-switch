@@ -12,9 +12,10 @@ Changelog:
 - Fixed squished gamecard icon by changing the file format to a png
 - Made colour scheme a lot more similar to the Nintendo Switch's
 
+<br/>
+<br/>
 
 CREDITS:
-</br>
 Theme is based on the ```Switch Theme for Launchbox by Grila```
 
 Switch Icon (lower left hand side): [nintendo switch by Sweet Farm from the Noun Project](https://thenounproject.com/term/nintendo-switch/694755/)
