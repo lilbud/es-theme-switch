@@ -16,6 +16,7 @@ Changelog:
 <br/>
 
 CREDITS:
+
 Theme is based on the ```Switch Theme for Launchbox by Grila```
 
 Switch Icon (lower left hand side): [nintendo switch by Sweet Farm from the Noun Project](https://thenounproject.com/term/nintendo-switch/694755/)
