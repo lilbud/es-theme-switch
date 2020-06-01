@@ -12,7 +12,7 @@
 <br/>
 
 
-### CREDITS:
+### Credits/Acknowledgements:
 
 Theme is based on the ```Switch Theme for Launchbox by Grila```
 
