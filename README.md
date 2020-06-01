@@ -1,5 +1,5 @@
-# Nintendo Switch Theme for RetroPie
-Over the last few days I have been working on this theme further. I updated all the icons a few days ago and decided to update the rest of the theme. 
+# Nintendo Switch Theme 4.0 for RetroPie
+
 
 ### Changelog:
 
