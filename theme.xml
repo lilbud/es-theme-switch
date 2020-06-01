@@ -43,7 +43,7 @@ based on:       Switch Theme for Launchbox by Grila
 		
 		<image name="arrowblock" extra="true">
 			<origin>0 0</origin>
-			<pos>0.03 0.22</pos>
+			<pos>0.03 0.17</pos>
 			<path>./assets/arrow_block.svg</path>
 		</image>
 	
