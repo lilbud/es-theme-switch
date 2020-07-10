@@ -1,6 +1,6 @@
 <!--
 theme name:		Switch
-version:		4.0
+version:		4.0.3
 author:			Lilbud and Bluebotlaboratories
 email:			bvw20002010@gmail.com
 license:		creative commons CC-BY-NC-SA
@@ -17,6 +17,7 @@ based on:       Switch Theme for Launchbox by Grila
  
 		<mainColor>02BFC8</mainColor>
 		<secondaryColor>2F2F2F</secondaryColor>
+		<selectColour>3550EA</selectColour>
 		
 	</variables>
 		
@@ -30,8 +31,8 @@ based on:       Switch Theme for Launchbox by Grila
 			<color>${mainColor}</color>
 		</image>
 		
-		<image name="overlay" extra="true">      
-			<path>./../assets/light/overlay.png</path>
+		<image name="miniMenu" extra="true">       
+			<path>./../assets/light/miniMenu.svg</path>
 		</image>
 		
 	</view>
@@ -59,10 +60,10 @@ based on:       Switch Theme for Launchbox by Grila
 	<view name="detailed, video">
 		
 		<textlist name="gamelist">
-			<selectedColor>${mainColor}</selectedColor>
+			<selectedColor>${selectColour}</selectedColor>
 			<primaryColor>${secondaryColor}</primaryColor>
 			<secondaryColor>${secondaryColor}</secondaryColor>
-			<selectorColor>${mainColor}</selectorColor>
+			<selectorColor>${selectColour}</selectorColor>
 		</textlist>	
 		
 		<rating name="md_rating">
