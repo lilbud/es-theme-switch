@@ -1,7 +1,7 @@
 <!--
 theme name:		Switch
-version:		3.0
-author:			Lilbud
+version:		4.0.3
+author:			Lilbud and Bluebotlaboratories
 email:			bvw20002010@gmail.com
 license:		creative commons CC-BY-NC-SA
 based on:       Switch Theme for Launchbox by Grila
@@ -15,6 +15,8 @@ based on:       Switch Theme for Launchbox by Grila
 	
 	<!--Choose Theme Color (light or dark)-->
 	<include>./settings/light.xml</include>
-
+	
+	<!--Choose Aspect Ratio (16_9 or 4_3)-->
+	<include>./settings/16_9.xml</include>
 
 </theme>

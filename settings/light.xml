@@ -1,7 +1,7 @@
 <!--
 theme name:		Switch
-version:		3.0
-author:			Lilbud
+version:		4.0.3
+author:			Lilbud and Bluebotlaboratories
 email:			bvw20002010@gmail.com
 license:		creative commons CC-BY-NC-SA
 based on:       Switch Theme for Launchbox by Grila
@@ -10,25 +10,29 @@ based on:       Switch Theme for Launchbox by Grila
 <theme>
 	<formatVersion>4</formatVersion>
 	
-		<!-- Color Variables -->
+	<!-- Color Variables -->
 	<variables>
 		
-		<backgroundColor>d9d9d9</backgroundColor>
+		<backgroundColor>EBEBEB</backgroundColor>
  
-		<mainColor>334ff0</mainColor>
-		<secondaryColor>222222</secondaryColor>
-		<systemColor>3aa5ab</systemColor>
- 
+		<mainColor>02BFC8</mainColor>
+		<secondaryColor>2F2F2F</secondaryColor>
+		<selectColour>3550EA</selectColour>
+		
 	</variables>
 		
-		<view name="system">
+	<view name="system">
 	
 		<text name="system_name_1" extra="true">
-			<color>${systemColor}</color>
+			<color>${mainColor}</color>
 		</text>
 		
 		<image name="arrowblock" extra="true">
-			<color>${systemColor}</color>
+			<color>${mainColor}</color>
+		</image>
+		
+		<image name="miniMenu" extra="true">       
+			<path>./../assets/light/miniMenu.svg</path>
 		</image>
 		
 	</view>
@@ -37,6 +41,10 @@ based on:       Switch Theme for Launchbox by Grila
 		
 		<image name="background">
 			<color>${backgroundColor}</color>
+		</image>
+		
+		<image name="Switch Icon" extra="true">
+			<color>${secondaryColor}</color>
 		</image>
 		
 		<image name="topline, bottomline" extra="true">
@@ -52,10 +60,10 @@ based on:       Switch Theme for Launchbox by Grila
 	<view name="detailed, video">
 		
 		<textlist name="gamelist">
-			<selectedColor>${mainColor}</selectedColor>
+			<selectedColor>${selectColour}</selectedColor>
 			<primaryColor>${secondaryColor}</primaryColor>
 			<secondaryColor>${secondaryColor}</secondaryColor>
-			<selectorColor>${mainColor}</selectorColor>
+			<selectorColor>${selectColour}</selectorColor>
 		</textlist>	
 		
 		<rating name="md_rating">
@@ -73,7 +81,7 @@ based on:       Switch Theme for Launchbox by Grila
 		
 		<text name="system_name_1" extra="true">
 			<color>${secondaryColor}</color>
-		</text>	
+		</text>
 		
 	</view>
 	
@@ -93,7 +101,7 @@ based on:       Switch Theme for Launchbox by Grila
   <view name="system">
 
 	<text name="systemInfo">
-      <color>${systemColor}</color>
+      <color>${mainColor}</color>
 	</text>
 
   </view>

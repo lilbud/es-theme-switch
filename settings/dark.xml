@@ -1,7 +1,7 @@
 <!--
 theme name:		Switch
-version:		3.0
-author:			Lilbud
+version:		4.0.3
+author:			Lilbud and Bluebotlaboratories
 email:			bvw20002010@gmail.com
 license:		creative commons CC-BY-NC-SA
 based on:       Switch Theme for Launchbox by Grila
@@ -13,10 +13,11 @@ based on:       Switch Theme for Launchbox by Grila
 	<!-- Color Variables -->
 	<variables>
 		
-		<backgroundColor>2d2d2d</backgroundColor>
+		<backgroundColor>2D2D2D</backgroundColor>
  
-		<mainColor>15c49e</mainColor>
-		<secondaryColor>fefefe</secondaryColor>
+		<mainColor>1ABCFD</mainColor>
+		<secondaryColor>FAFAFA</secondaryColor>
+		<selectColour>02BFC8</selectColour>
  
 	</variables>
 	
@@ -30,12 +31,20 @@ based on:       Switch Theme for Launchbox by Grila
 			<color>${mainColor}</color>
 		</image>
 		
+		<image name="miniMenu" extra="true">       
+			<path>./../assets/dark/miniMenu.svg</path>
+		</image>
+		
 	</view>
 		
 	<view name="system, basic, detailed, video">
 		
 		<image name="background">
 			<color>${backgroundColor}</color>
+		</image>
+		
+		<image name="Switch Icon" extra="true">
+			<color>${secondaryColor}</color>
 		</image>
 		
 		<image name="topline, bottomline" extra="true">
@@ -51,10 +60,10 @@ based on:       Switch Theme for Launchbox by Grila
 	<view name="detailed, video">
 		
 		<textlist name="gamelist">
-			<selectedColor>${mainColor}</selectedColor>
+			<selectedColor>${selectColour}</selectedColor>
 			<primaryColor>${secondaryColor}</primaryColor>
 			<secondaryColor>${secondaryColor}</secondaryColor>
-			<selectorColor>${mainColor}</selectorColor>
+			<selectorColor>${selectColour}</selectorColor>
 		</textlist>	
 		
 		<rating name="md_rating">

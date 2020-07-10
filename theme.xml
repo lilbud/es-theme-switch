@@ -1,7 +1,7 @@
 <!--
 theme name:		Switch
-version:		3.0
-author:			Lilbud
+version:		4.0.3
+author:			Lilbud and Bluebotlaboratories
 email:			bvw20002010@gmail.com
 license:		creative commons CC-BY-NC-SA
 based on:       Switch Theme for Launchbox by Grila
@@ -10,15 +10,11 @@ based on:       Switch Theme for Launchbox by Grila
 <theme>
 	<formatVersion>4</formatVersion>
 	
-	<!--Choose Aspect Ratio (16_9, 4_3)-->
-	<include>./settings/16_9.xml</include>
-	<!----------------------------------->	
+	<include>./config.xml</include>
 	
 	<variables>
-			<mainFont>./assets/Oxygen-Regular.ttf</mainFont>
+			<mainFont>./assets/NintendoSwitchUI.ttf</mainFont>
 	</variables>
-	
-	<include>./config.xml</include>
 	
 
 	<view name="system">
@@ -27,11 +23,17 @@ based on:       Switch Theme for Launchbox by Grila
 			<path>./art/${system.theme}.jpg</path>
 		</image>
 		
+		<image name="miniMenu" extra="true">
+			<origin>0.5 0.5</origin>
+			<size>0 0.125</size>
+			<zIndex>100</zIndex>
+		</image>
+		
 		<text name="system_name_1" extra="true">
 			<text>${system.fullName}</text>
 			<forceUppercase>0</forceUppercase>
 			<size>0.743 0.015</size>
-			<pos>0.063 0.235</pos>
+			<pos>0.063 0.185</pos>
 			<origin>0 0</origin>
 			<fontSize>0.04</fontSize>
 			<alignment>left</alignment>
@@ -39,18 +41,25 @@ based on:       Switch Theme for Launchbox by Grila
 		</text>
 		
 		<image name="arrowblock" extra="true">
-			<pos>0.03 0.22</pos>
+			<origin>0 0</origin>
+			<pos>0.03 0.17</pos>
 			<path>./assets/arrow_block.svg</path>
-		</image>	
+		</image>
 	
 	</view>
-		<view name="system, basic, detailed, video">	
+		<view name="system, basic, detailed, video">
+		
+		<image name="Switch Icon" extra="true">
+			<origin>0.5 0.5</origin>
+			<pos>0.08 0.95</pos>
+			<path>./assets/switchIcon.svg</path>
+			<zIndex>99</zIndex>
+		</image>
 
 		<helpsystem name="help">
 			<textColor>22222200</textColor>
 			<iconColor>22222200</iconColor>
 			<pos>1 1</pos>
-			
 		</helpsystem>
 		
 		<image name="background" extra="true">
@@ -79,8 +88,7 @@ based on:       Switch Theme for Launchbox by Grila
 			<fontSize>0.028</fontSize>
 			<horizontalMargin>0.01</horizontalMargin>
 			<lineSpacing>2.3</lineSpacing>
-		</textlist>	
-		
+		</textlist>
 		
 		<text name="system_name_1" extra="true">
 			<text>${system.fullName}</text>
@@ -106,10 +114,18 @@ based on:       Switch Theme for Launchbox by Grila
 			<path>./assets/box.png</path>
 		</image>
 		
-		<text name="md_lbl_releasedate, md_lbl_developer, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_developer, md_genre, md_players, md_playcount, md_releasedate, md_description" extra="true">
+		<text name="md_lbl_releasedate, md_lbl_developer, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount" extra="true">
 			<forceUppercase>0</forceUppercase>
 			<fontSize>0.028</fontSize>
 			<fontPath>${mainFont}</fontPath>
+			<size>0.12 0.04</size>
+		</text>
+		
+		<text name="md_developer, md_genre, md_players, md_playcount, md_releasedate, md_description" extra="true">
+			<forceUppercase>0</forceUppercase>
+			<fontSize>0.028</fontSize>
+			<fontPath>${mainFont}</fontPath>
+			<size>0.14 0.04</size>
 		</text>
 		
 		<datetime name="md_releasedate">
@@ -173,8 +189,7 @@ based on:       Switch Theme for Launchbox by Grila
 
     <carousel name="systemcarousel">
       <type>horizontal</type>
-      <pos>0 0.3</pos> 
-      <size>1 .4</size> 
+      <size>1 0.4</size> 
       <color>00000000</color>
       <logoScale>1</logoScale>
       <logoSize>0.234 0.397</logoSize>
@@ -185,7 +200,6 @@ based on:       Switch Theme for Launchbox by Grila
       <backgroundColor>dddddd00</backgroundColor>
       <forceUppercase>0</forceUppercase>
       <fontSize>0.03</fontSize>
-	  <pos>0.5 0.75</pos>
 	  <origin>0.5 0.5</origin>
 	  <forceUppercase>0</forceUppercase>
 	  <fontPath>${mainFont}</fontPath>
